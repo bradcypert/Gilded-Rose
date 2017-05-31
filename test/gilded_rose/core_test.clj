@@ -77,11 +77,11 @@
         [vest brie elixir sulfuras tickets] inventory]
     (testing "sulfuras should maintain 80"
       (is (= 80 (:quality sulfuras))))
-    (testing "brie should go up to 1"
+    (testing "brie should go up to 2"
       (is (= 2 (:quality brie))))
-    (testing "tickets should go up to 21"
+    (testing "tickets should go up to 22"
       (is (= 22 (:quality tickets))))
-    (testing "elixir should go down to 6"
+    (testing "elixir should go down to 5"
       (is (= 5 (:quality elixir))))
-    (testing "vest should go down to 19"
+    (testing "vest should go down to 18"
       (is (= 18 (:quality vest))))))
